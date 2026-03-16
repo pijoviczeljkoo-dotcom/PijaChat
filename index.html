@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PijaChat</title>
+</head>
+
+<body>
+
+<h1>PijaChat radi!</h1>
+
+<input id="msg" placeholder="Poruka">
+<button onclick="send()">Posalji</button>
+
+<ul id="chat"></ul>
+
+<script>
+function send(){
+let msg=document.getElementById("msg").value
+let li=document.createElement("li")
+li.textContent=msg
+document.getElementById("chat").appendChild(li)
+}
+</script>
+
+</body>
+</html>
