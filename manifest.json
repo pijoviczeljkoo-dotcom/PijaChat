@@ -1,0 +1,16 @@
+{
+  "background_color": "#467caf",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "PijaChat",
+  "orientation": "natural",
+  "scope": "/PijaChat/",
+  "short_name": "P_C",
+  "start_url": "/PijaChat/",
+  "theme_color": "#235773",
+  "id": "PijaChat",
+  "lang": "en",
+  "categories": [
+    "social"
+  ]
+}
